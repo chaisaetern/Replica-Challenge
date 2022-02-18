@@ -1,0 +1,50 @@
+body {
+    background-color: #040714;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.page-1 {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #fff;
+}
+
+.page-2 {
+    width: 100%;
+    height: 150vh;
+    border: 1px solid #fff;
+}
+
+.page-3 {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #fff;
+}
+
+/* Banner */
+.page-4 {
+    width: 100%;
+    height: 50vh;
+    border: 1px solid #fff;
+}
+
+.page-5 {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #fff;
+}
+
+.page-6 {
+    width: 100%;
+    height: 130vh;
+    border: 1px solid #fff;
+}
+
+.page-7 {
+    width: 100%;
+    height: 40vh;
+
+border: 1px solid #fff;}
