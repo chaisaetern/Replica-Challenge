@@ -9,16 +9,79 @@ body {
 .page-1 {
     width: 100%;
     height: 100vh;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     background-image: url("../img/page-1-bg.jfif");
     background-size: 100% 110vh;
     background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.page-1-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* height: inherit; */
+}
+
+.page-1-main img {
+    width: 75%;
+    margin: 5px;
+}
+
+.page-1-main > button {
+    width: 75%;
+    height: 3rem;
+    background-color: #0063e5;
+    border: none;
+    border-radius: 5px;
+    color: #f9f9f9;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+
+.page-1-main > p,
+.page-1-main > a {
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+/* Page 2 */
 .page-2 {
-    width: 100%;
-    height: 150vh;
-    border: 1px solid #fff;
+    height: 100vh;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.page-2-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    color: #fff;
+    width: auto;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+.page-2-text h1 {
+    margin-left: -2rem;
+}
+
+.page-2-text > li {
+    line-height: 30px;
 }
 
 .page-3 {
