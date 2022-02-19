@@ -1,9 +1,15 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/AvenirLTStd-Black.otf");
+}
+
 body {
     background-color: #040714;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: "Avenir", sans-serif;
 }
 
 .page-1 {
