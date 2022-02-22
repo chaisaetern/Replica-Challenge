@@ -12,6 +12,8 @@ body {
     font-family: "Avenir", sans-serif;
 }
 
+/* Page 1 */
+
 .page-1 {
     width: 100%;
     height: 100vh;
@@ -90,18 +92,23 @@ body {
     line-height: 30px;
 }
 
+/* Page 3 */
+
 .page-3 {
     width: 100%;
     height: 100vh;
     border: 1px solid #fff;
 }
 
-/* Banner */
+/* Banner/Page 4 */
+
 .page-4 {
     width: 100%;
     height: 50vh;
     border: 1px solid #fff;
 }
+
+/* Page 5 */
 
 .page-5 {
     width: 100%;
@@ -109,14 +116,18 @@ body {
     border: 1px solid #fff;
 }
 
+/* Page 6 */
+
 .page-6 {
     width: 100%;
     height: 130vh;
     border: 1px solid #fff;
 }
 
+/* Page 7 */
+
 .page-7 {
     width: 100%;
     height: 40vh;
-
-border: 1px solid #fff;}
+    border: 1px solid #fff;
+}
