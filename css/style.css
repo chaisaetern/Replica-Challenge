@@ -1,15 +1,60 @@
 @font-face {
     font-family: "Avenir";
-    src: url("../fonts/AvenirLTStd-Black.otf");
+    src: url("../fonts/AvenirLTStd-Book.otf");
 }
 
 body {
     background-color: #040714;
+    color: #fff;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
     font-family: "Avenir", sans-serif;
+}
+
+/* Nav */
+.nav {
+    width: 100%;
+    height: 5rem;
+    background-color: #040714;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.nav a:nth-child(1) {
+    border: none;
+    border-radius: 5px;
+    background-color: #0063e5;
+}
+
+.nav a:nth-child(2) {
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 5.3rem;
+    height: 3rem;
+    position: relative;
+    left: 3rem;
+}
+
+.login-container {
+    position: relative;
+    right: 1rem;
 }
 
 /* Page 1 */
@@ -114,7 +159,38 @@ body {
 .page-5 {
     width: 100%;
     height: 100vh;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-5-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.page-5-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-5-article > img {
+    width: 18rem;
+}
+
+.page-5-article > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5rem;
 }
 
 /* Page 6 */
@@ -122,7 +198,44 @@ body {
 .page-6 {
     width: 100%;
     height: 130vh;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
+}
+
+.page-6 > h1 {
+    text-align: center;
+}
+
+.page-6-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.page-6-section > button {
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #13151d;
+    border: none;
+    height: 5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span::after {
+    color: #f9f9f9;
+    content: "+";
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 16px);
+    line-height: .8;
 }
 
 /* Page 7 */
