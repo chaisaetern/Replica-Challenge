@@ -279,6 +279,17 @@ body {
     margin-bottom: 1rem;
 }
 
+.globe {
+    margin-right: 0.3rem;
+    height: 1.3rem;
+}
+
+.footer-down-arrow {
+    margin-left: 0.3rem;
+    width: 0.7rem;
+    height: 0.4rem;
+}
+
 .page-7-section {
     display: flex;
     flex-wrap: wrap;
@@ -293,6 +304,9 @@ body {
     color: #ccc9c9;
     text-decoration: none;
     transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-7-section > a:hover {
