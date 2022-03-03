@@ -137,6 +137,33 @@ body {
     line-height: 30px;
 }
 
+.down-arrow {
+    width: 2rem;
+    height: 1rem;
+    position: relative;
+    top: 5rem;
+    cursor: pointer;
+    animation-name: arrow-animation;
+    animation-duration: 1s;
+    /* animation-delay: 0.5s; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow-animation {
+    0% {
+        top: 1rem;
+    }
+    33% {
+        top: 2rem;
+    }
+    75% {
+        top: 1.5rem;
+    }
+    100% {
+        top: 2rem;
+    }
+}
+
 /* Page 3 */
 
 .page-3 {
@@ -228,14 +255,10 @@ body {
     align-items: center;
 }
 
-span::after {
+.page-6-section button > .sign::after {
     color: #f9f9f9;
     content: "+";
     font-size: 40px;
-    position: absolute;
-    right: 0;
-    top: calc(50% - 16px);
-    line-height: .8;
 }
 
 /* Page 7 */
