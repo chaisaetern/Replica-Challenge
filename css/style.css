@@ -221,7 +221,7 @@ body {
 .page-4-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     border: 1px solid #fff;
