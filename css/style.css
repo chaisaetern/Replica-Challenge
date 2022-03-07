@@ -105,9 +105,14 @@ body {
 .page-1-main > a {
     margin: 5px;
     padding: 5px;
-    color: #fff;
+    color: silver;
+    font-size: small;
 }
 
+.page-1-main > a {
+    font-size: large;
+    color: white;
+}
 
 .down-arrow {
     width: 2rem;
@@ -182,14 +187,15 @@ body {
 
 .page-3> ul > h2 {
      text-align:center;
-     font-size: 30px;
+     font-size: 40px;
+     font-family: Avenir,sans-serif;
 }
 
 .page-3> ul > p {
     text-align:center;
-    font-size: px;
-    color:#bfbfbf;
-    font: 1em sans-serif;
+    font-size: 20px;
+    color: silver;
+    font-family: Avenir,sans-serif;
 }
 
 .page-3-container {
@@ -240,9 +246,15 @@ body {
     background-color: #0063e5;
     border: none;
     border-radius: 5px;
-    color: #f9f9f9;
+    color: white;
     letter-spacing: 1px;
     font-size: 1rem;
+}
+
+.page-4-text > p {
+    color: silver;
+    font-family: Avenir,sans-serif;
+    font-size: 20px;
 }
 
 /* Page 5 */
@@ -259,7 +271,7 @@ body {
 }
 
 .page-5-section {
-    width: 100%;
+    width: 95%;
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -285,7 +297,15 @@ body {
     justify-content: center;
     align-items: center;
     line-height: 1.5rem;
+    color: silver;
 }
+
+.page-5 > h1 {
+    font-size: 40px;
+}
+ 
+
+
 
 /* Page 6 */
 
