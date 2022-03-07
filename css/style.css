@@ -139,13 +139,12 @@ body {
 /* Page 2 */
 .page-2 {
     height: 100%;
-    /* width: 100%; */
-    /* border: 1px solid #fff; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
 }
 
 .page-2 > img {
@@ -232,6 +231,14 @@ body {
 .page-4-container > img {
     width: 40%;
     margin: 1rem;
+}
+
+.page-4-text p {
+    font-size: 1.3rem;
+}
+
+.page-4-text p > a {
+    color: #fff;
 }
 
 .page-4-text > button {
